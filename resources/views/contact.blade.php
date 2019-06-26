@@ -39,7 +39,7 @@
                             type="email"
                             class="form-control"
                             placeholder="Email"
-                            name="name"
+                            name="email"
                             required
                           />
                         </div>
@@ -50,7 +50,7 @@
                             type="text"
                             placeholder="Message"
                             rows="7"
-                            name="name"
+                            name="message"
                             required
                           ></textarea>
                         </div>
