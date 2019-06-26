@@ -8,15 +8,30 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ContactControllerTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
-    public function testExample()
-    {
-        $response = $this->get('/');
 
+    public function test_post_contact_route () {
+        $data =
+            '{
+                "email": "haydencallum4@gmail.com",
+                "name": "Callum",
+                "message": "Hey! This is just a test message to ensure it works. Cheers, Callum"
+            }';
+        $response = $this->json('POST', 'api/contact',[
+                $data
+            ]);
         $response->assertStatus(200);
+    }
+
+    public function test_empty_contact_form () {
+        $data =
+            '{
+                "email": "",
+                "name": "",
+                "message": ""
+            }';
+        $response = $this->json('POST', 'api/contact',[
+                $data
+            ]);
+        $response->assertStatus(401);
     }
 }
