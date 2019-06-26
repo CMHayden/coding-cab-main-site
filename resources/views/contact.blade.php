@@ -22,7 +22,7 @@
 
                       <form
                         class="contact-form d-flex flex-column align-items-center"
-                        action="/contact"
+                        action="/api/contact"
                         method="POST"
                       >
                         <div class="form-group w-75">
