@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/CMHayden/coding-cab-main-site">GitHub</a>
                     <a href="/contact">Contact</a>
                 </div>
             </div>
