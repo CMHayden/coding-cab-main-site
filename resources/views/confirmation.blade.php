@@ -81,10 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Coding Cab
+                    Email sent!
                 </div>
 
                 <div class="links">
+                    <a href="/">Home</a>
                     <a href="https://github.com/CMHayden/coding-cab-main-site">GitHub</a>
                     <a href="/contact">Contact</a>
                 </div>
